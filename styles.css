@@ -1,44 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodGPT - AI Nutrition Assistant</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
 
-    <header>
-        <div class="logo">🍏 FoodGPT</div>
-        <nav>
-            <a href="#">Analyze Ingredients</a>
-            <a href="#">Food Blog</a>
-        </nav>
-    </header>
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-    <section class="hero">
-        <h1>Your AI-Powered Nutrition Assistant</h1>
-        <p>Discover the truth about what's in your food and make healthier choices</p>
-        <button class="main-btn">Analyze Ingredients</button>
-    </section>
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000;
+}
 
-    <section class="features">
-        <div class="feature-card">
-            <span class="icon">🔍</span>
-            <h3>Ingredient Scanner</h3>
-            <p>Detect harmful chemicals and additives in your food products.</p>
-        </div>
-        <div class="feature-card">
-            <span class="icon">🌿</span>
-            <h3>Nutrition Analysis</h3>
-            <p>Get detailed insights about nutritional value and healthier alternatives.</p>
-        </div>
-        <div class="feature-card">
-            <span class="icon">📖</span>
-            <h3>Expert Food Blog</h3>
-            <p>Read expert articles about healthy eating and food science.</p>
-        </div>
-    </section>
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
 
-</body>
-</html>
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: gray;
+}
+
+.main-btn {
+    background: #008000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background: #006400;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: white;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
